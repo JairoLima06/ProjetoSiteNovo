@@ -1,3 +1,15 @@
 .soma-icon {
 background-color: black;
 }
+
+.menu_main {
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}
+
+.menu_wrapper {
+    grid-template-columns: 70px 1fr auto;
+    justify-content: flex-start;
+    
+}
